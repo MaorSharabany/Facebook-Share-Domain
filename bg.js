@@ -12,6 +12,7 @@ const app = scommon.app;
 scommon.appx = appx;
 
 const ejs = require('ejs');
+const { get } = require('node:https');
 
 // var insertUserName;
 
@@ -41,12 +42,13 @@ app.set('view engine', 'ejs');
 
 //Use to get user image
 //http://localhost:8066/wordgamefarm/maor
-app.get("*/wordgamefarm/:name", function (req, res) {
+// app.get("*/wordgamefarm/:name", function (req, res) {
+app.get("*/https://hardcore-einstein-fe8b05.netlify.app:name", function (req, res) {
 
     var name = req.params.name;
     var img = name + ".jpg";
 
-    res.render('wordgamefarm', { person: name, image: img });
+    res.render('facebook', { person: name, image: img });
 })
 
 
@@ -79,7 +81,8 @@ app.get('*/check/', sutil.wrap(async (req, res) => {
 app.use('*/static', express.static('static'))
 
 //Server runner
-const port = process.env.PORT || 8066;
+const port = process.env.PORT || "https://hardcore-einstein-fe8b05.netlify.app/";
 app.listen(port, () => {
     monitor.log(`${appx.SERVICE} listening on port ${port}`);
+    app.listen()
 });
