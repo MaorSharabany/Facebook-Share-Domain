@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        <%=person%> image page
+    </title>
+    <meta charset="utf-8">
+    <link href="/bgnet/static/assets/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <h1>
+        Welcome to <%= person %>'s page image
+    </h1>
+    <p>
+        Image Uploder Template
+    </p>
+
+    <p>
+        <img src="/bgnet/static/images/<%=person%>.jpg" alt="<%=person%> image">
+        <br>
+        This is <%=person.toUpperCase()%>'s image
+    </p>
+
+</body>
+
+</html>
