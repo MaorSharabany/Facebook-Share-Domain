@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+
+<head>
+
+    <!-- https://developers.facebook.com/docs/sharing/webmasters/crawler -->
+    <!-- OG tags---------------------------------------------------------------------------------------------------------- -->
+    <!--
+    <meta property="og:url" content="https://braingames.net/word-games/shares/ABCDEFG" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Word Farm Adventure- Free Word Games" />
+    <meta property="og:description" content="Check out what I did by playing word puzzles" />
+    <meta property="og:image" content="https://shares.braingames.net/ABCDEFG/share.jpg" />
+    -->
+    <!-- TODO: add `fb:app_id` In order to use Facebook Insights  -->
+    <!-- OG tags------------------------------------------------------------------------>
+
+    <!-- <style>
+        img.lazy {
+            min-height: 1px
+        }
+    </style> -->
+    <link rel="preload" href="https://braingames.net/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"
+        as="script">
+    <script src="https://connect.facebook.net/signals/config/1771678029660763?v=2.9.40&amp;r=stable" async=""></script>
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-WZQQF6X"></script>
+    <script>var _wpmnl = !0;</script>
+    <script>var _wpmeteor = { "rdelay": 1000, "elementor-animations": true, "elementor-pp": true, "v": "1.5.1" };</script>
+    <script>if (navigator.userAgent.match(/MSIE|Internet Explorer/i) || navigator.userAgent.match(/Trident\/7\..*?rv:11/i)) { var href = document.location.href; if (!href.match(/[?&]wpmeteordisable/)) { if (href.indexOf("?") == -1) { if (href.indexOf("#") == -1) { document.location.href = href + "?wpmeteordisable=1" } else { document.location.href = href.replace("#", "?wpmeteordisable=1#") } } else { if (href.indexOf("#") == -1) { document.location.href = href + "&wpmeteordisable=1" } else { document.location.href = href.replace("#", "&wpmeteordisable=1#") } } } }</script>
+    <script>!function (t) { var e = {}; function n(r) { if (e[r]) return e[r].exports; var i = e[r] = { i: r, l: !1, exports: {} }; return t[r].call(i.exports, i, i.exports, n), i.l = !0, i.exports } n.m = t, n.c = e, n.d = function (t, e, r) { n.o(t, e) || Object.defineProperty(t, e, { enumerable: !0, get: r }) }, n.r = function (t) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(t, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(t, "__esModule", { value: !0 }) }, n.t = function (t, e) { if (1 & e && (t = n(t)), 8 & e) return t; if (4 & e && "object" == typeof t && t && t.__esModule) return t; var r = Object.create(null); if (n.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: t }), 2 & e && "string" != typeof t) for (var i in t) n.d(r, i, function (e) { return t[e] }.bind(null, i)); return r }, n.n = function (t) { var e = t && t.__esModule ? function () { return t.default } : function () { return t }; return n.d(e, "a", e), e }, n.o = function (t, e) { return Object.prototype.hasOwnProperty.call(t, e) }, n.p = "/", n(n.s = 0) }([function (t, e, n) { t.exports = n(1) }, function (t, e, n) { "use strict"; n.r(e); var r = new (function () { function t() { this.l = [] } var e = t.prototype; return e.emit = function (t, e) { void 0 === e && (e = null), this.l[t] && this.l[t].forEach((function (t) { return t(e) })) }, e.on = function (t, e) { var n; (n = this.l)[t] || (n[t] = []), this.l[t].push(e) }, e.off = function (t, e) { this.l[t] = (this.l[t] || []).filter((function (t) { return t !== e })) }, t }()), i = new Date, a = function () { var t, e = !1, n = function (t) { if (!e && t && t.fn && !t.__wpmeteor) { var n = function (e) { return document.addEventListener("DOMContentLoaded", (function (n) { return e.bind(document)(t, n) })), this }; t.fn.ready = n, t.fn.init.prototype.ready = n, t.__wpmeteor = !0 } return t }; window.jQuery && (t = n(window.jQuery)), Object.defineProperties(window, { jQuery: { get: function () { return t }, set: function (e) { return t = n(e) } } }), r.on("l", (function () { return e = !0 })) }, o = {}; !function (t, e) { try { var n = Object.defineProperty({}, e, { get: function () { o[e] = !0 } }); t.addEventListener(e, null, n), t.removeEventListener(e, null, n) } catch (t) { } }(window, "passive"); var u = o; function s(t, e, n, r) { var i; if (function () { var t, e = { lazyClass: "lazyload", loadedClass: "lazyloaded", loadingClass: "lazyloading", preloadClass: "lazypreload", errorClass: "lazyerror", autosizesClass: "lazyautosizes", fastLoadedClass: "ls-is-cached", iframeLoadMode: 0, srcAttr: "data-src", srcsetAttr: "data-srcset", sizesAttr: "data-sizes", minSize: 40, customMedia: {}, init: !0, expFactor: 1.5, hFac: .8, loadMode: 2, loadHidden: !0, ricTimeout: 0, throttleDelay: 125 }; for (t in e) t in r || (r[t] = e[t]) }(), !e || !e.getElementsByClassName) return { init: function () { }, cfg: r, noSupport: !0 }; var a, o, u, s, l, c, d, f, p, v, g, m, y, h, b, z, A, E, _, C, w, L, S, N, T, P, x, M, O, j, k, W, F, H, R, B, D, q, $, I = e.documentElement, J = t.HTMLPictureElement, Q = t.addEventListener.bind(t), U = t.setTimeout, V = t.requestAnimationFrame || U, X = t.requestIdleCallback, Y = /^picture$/i, G = ["load", "error", "lazyincluded", "_lazyloaded"], K = {}, Z = Array.prototype.forEach, tt = function (t, e) { return K[e] || (K[e] = new RegExp("(\s|^)" + e + "(\s|$)")), K[e].test(t.getAttribute("class") || "") && K[e] }, et = function (t, e) { tt(t, e) || t.setAttribute("class", (t.getAttribute("class") || "").trim() + " " + e) }, nt = function (t, e) { var n; (n = tt(t, e)) && t.setAttribute("class", (t.getAttribute("class") || "").replace(n, " ")) }, rt = function t(e, n, r) { var i = r ? "addEventListener" : "removeEventListener"; r && t(e, n), G.forEach((function (t) { e[i](t, n) })) }, it = function (t, n, r, a, o) { var u = e.createEvent("Event"); return r || (r = {}), r.instance = i, u.initEvent(n, !a, !o), u.detail = r, t.dispatchEvent(u), u }, at = function (e, n) { var i; !J && (i = t.picturefill || r.pf) ? (n && n.src && !e.getAttribute("srcset") && e.setAttribute("srcset", n.src), i({ reevaluate: !0, elements: [e] })) : n && n.src && (e.src = n.src) }, ot = function (t, e) { return (getComputedStyle(t, null) || {})[e] }, ut = function (t, e, n) { for (n = n || t.offsetWidth; n < r.minSize && e && !t._lazysizesWidth;)n = e.offsetWidth, e = e.parentNode; return n }, st = (s = [], l = u = [], (d = function (t, n) { a && !n ? t.apply(this, arguments) : (l.push(t), o || (o = !0, (e.hidden ? U : V)(c))) })._lsFlush = c = function () { var t = l; for (l = u.length ? s : u, a = !0, o = !1; t.length;)t.shift()(); a = !1 }, d), lt = function (t, e) { return e ? function () { st(t) } : function () { var e = this, n = arguments; st((function () { t.apply(e, n) })) } }, ct = (C = /^img$/i, w = "onscroll" in t && !/(gle|ing)bot/.test(navigator.userAgent), L = 0, S = 0, N = -1, T = function (t) { S--, (!t || S < 0 || !t.target) && (S = 0) }, P = function (t) { return null == _ && (_ = "hidden" == ot(e.body, "visibility")), _ || !("hidden" == ot(t.parentNode, "visibility") && "hidden" == ot(t, "visibility")) }, x = function (t, n) { var r, i = t, a = P(t); for (b -= n, E += n, z -= n, A += n; a && (i = i.offsetParent) && i != e.body && i != I;)(a = (ot(i, "opacity") || 1) > 0) && "visible" != ot(i, "overflow") && (r = i.getBoundingClientRect(), a = A > r.left && z < r.right && E > r.top - 1 && b < r.bottom + 1); return a }, O = function (t) { var e, i = 0, a = r.throttleDelay, o = r.ricTimeout, u = function () { e = !1, i = n.now(), t() }, s = X && o > 49 ? function () { X(u, { timeout: o }), o !== r.ricTimeout && (o = r.ricTimeout) } : lt((function () { U(u) }), !0); return function (t) { var r; (t = !0 === t) && (o = 33), e || (e = !0, (r = a - (n.now() - i)) < 0 && (r = 0), t || r < 9 ? s() : U(s, r)) } }(M = function () { var t, n, a, o, u, s, l, c, d, v, m, C, T = i.elements; if ((g = r.loadMode) && S < 8 && (t = T.length)) { for (n = 0, N++; n < t; n++)if (T[n] && !T[n]._lazyRace) if (!w || i.prematureUnveil && i.prematureUnveil(T[n])) R(T[n]); else if ((c = T[n].getAttribute("data-expand")) && (s = 1 * c) || (s = L), v || (v = !r.expand || r.expand < 1 ? I.clientHeight > 500 && I.clientWidth > 500 ? 500 : 370 : r.expand, i._defEx = v, m = v * r.expFactor, C = r.hFac, _ = null, L < m && S < 1 && N > 2 && g > 2 && !e.hidden ? (L = m, N = 0) : L = g > 1 && N > 1 && S < 6 ? v : 0), d !== s && (y = innerWidth + s * C, h = innerHeight + s, l = -1 * s, d = s), a = T[n].getBoundingClientRect(), (E = a.bottom) >= l && (b = a.top) <= h && (A = a.right) >= l * C && (z = a.left) <= y && (E || A || z || b) && (r.loadHidden || P(T[n])) && (p && S < 3 && !c && (g < 3 || N < 4) || x(T[n], s))) { if (R(T[n]), u = !0, S > 9) break } else !u && p && !o && S < 4 && N < 4 && g > 2 && (f[0] || r.preloadAfterLoad) && (f[0] || !c && (E || A || z || b || "auto" != T[n].getAttribute(r.sizesAttr))) && (o = f[0] || T[n]); o && !u && R(o) } }), k = lt(j = function (t) { var e = t.target; e._lazyCache ? delete e._lazyCache : (T(t), et(e, r.loadedClass), nt(e, r.loadingClass), rt(e, W), it(e, "lazyloaded")) }), W = function (t) { k({ target: t.target }) }, F = function (t) { var e, n = t.getAttribute(r.srcsetAttr); (e = r.customMedia[t.getAttribute("data-media") || t.getAttribute("media")]) && t.setAttribute("media", e), n && t.setAttribute("srcset", n) }, H = lt((function (t, e, n, i, a) { var o, u, s, l, c, d; (c = it(t, "lazybeforeunveil", e)).defaultPrevented || (i && (n ? et(t, r.autosizesClass) : t.setAttribute("sizes", i)), u = t.getAttribute(r.srcsetAttr), o = t.getAttribute(r.srcAttr), a && (l = (s = t.parentNode) && Y.test(s.nodeName || "")), d = e.firesLoad || "src" in t && (u || o || l), c = { target: t }, et(t, r.loadingClass), d && (clearTimeout(v), v = U(T, 2500), rt(t, W, !0)), l && Z.call(s.getElementsByTagName("source"), F), u ? t.setAttribute("srcset", u) : o && !l && (t.src = o), a && (u || l) && at(t, { src: o })), t._lazyRace && delete t._lazyRace, nt(t, r.lazyClass), st((function () { var e = t.complete && t.naturalWidth > 1; d && !e || (e && et(t, r.fastLoadedClass), j(c), t._lazyCache = !0, U((function () { "_lazyCache" in t && delete t._lazyCache }), 9)), "lazy" == t.loading && S-- }), !0) })), { _: function () { m = n.now(), i.elements = e.getElementsByClassName(r.lazyClass), f = e.getElementsByClassName(r.lazyClass + " " + r.preloadClass), Q("pageshow", (function (t) { if (t.persisted) { var n = e.querySelectorAll("." + r.loadingClass); n.length && n.forEach && V((function () { n.forEach((function (t) { t.complete && R(t) })) })) } })), function t() { p || (n.now() - m < 999 ? U(t, 999) : (p = !0, r.loadMode = 3, O())) }(), i.elements.length ? (M(), st._lsFlush()) : O() }, checkElems: O, unveil: R = function (t) { if (!t._lazyRace) { var e, n = C.test(t.nodeName), i = n && (t.getAttribute(r.sizesAttr) || t.getAttribute("sizes")), a = "auto" == i; (!a && p || !n || !t.getAttribute("src") && !t.srcset || t.complete || tt(t, r.errorClass) || !tt(t, r.lazyClass)) && (e = it(t, "lazyunveilread").detail, a && dt.updateElem(t, !0, t.offsetWidth), t._lazyRace = !0, S++, H(t, e, a, i, n)) } }, _aLSL: null }), dt = (D = lt((function (t, e, n, r) { var i, a, o; if (t._lazysizesWidth = r, r += "px", t.setAttribute("sizes", r), Y.test(e.nodeName || "")) for (a = 0, o = (i = e.getElementsByTagName("source")).length; a < o; a++)i[a].setAttribute("sizes", r); n.detail.dataAttr || at(t, n.detail) })), q = function (t, e, n) { var r, i = t.parentNode; i && (n = ut(t, i, n), (r = it(t, "lazybeforesizes", { width: n, dataAttr: !!e })).defaultPrevented || (n = r.detail.width) && n !== t._lazysizesWidth && D(t, i, r, n)) }, { _: function () { B = e.getElementsByClassName(r.autosizesClass), Q("resize", $) }, checkElems: $ = function (t) { var e, r, i = function () { e = null, t() }, a = function t() { var e = n.now() - r; e < 99 ? U(t, 99 - e) : (X || i)(i) }; return function () { r = n.now(), e || (e = U(a, 99)) } }((function () { var t, e = B.length; if (e) for (t = 0; t < e; t++)q(B[t]) })), updateElem: q }), ft = function t() { !t.i && e.getElementsByClassName && (t.i = !0, dt._(), ct._()) }; return U((function () { r.init && ft() })), i = { cfg: r, autoSizer: dt, loader: ct, init: ft, uP: at, aC: et, rC: nt, hC: tt, fire: it, gW: ut, rAF: st } } var l = function (t, e, n) { if (t.addEventListener) { var r = n.cfg, i = /\s+/g, a = /\s*\|\s+|\s+\|\s*/g, o = /^(.+?)(?:\s+\[\s*(.+?)\s*\])(?:\s+\[\s*(.+?)\s*\])?$/, u = /^\s*\(*\s*type\s*:\s*(.+?)\s*\)*\s*$/, s = /\(|\)|'/, l = { contain: 1, cover: 1 }, c = function (t, e) { if (e) { var n = e.match(u); n && n[1] ? t.setAttribute("type", n[1]) : t.setAttribute("media", r.customMedia[e] || e) } }, d = function (t) { if (t.target._lazybgset) { var e = t.target, r = e._lazybgset, i = e.currentSrc || e.src; if (i) { var a = s.test(i) ? JSON.stringify(i) : i, o = n.fire(r, "bgsetproxy", { src: i, useSrc: a, fullSrc: null }); o.defaultPrevented || (r.style.backgroundImage = o.detail.fullSrc || "url(" + o.detail.useSrc + ")") } e._lazybgsetLoading && (n.fire(r, "_lazyloaded", {}, !1, !0), delete e._lazybgsetLoading) } }; addEventListener("lazybeforeunveil", (function (t) { var u, s, l; !t.defaultPrevented && (u = t.target.getAttribute("data-bgset")) && (l = t.target, (s = e.createElement("img")).alt = "", s._lazybgsetLoading = !0, t.detail.firesLoad = !0, function (t, n, u) { var s = e.createElement("picture"), l = n.getAttribute(r.sizesAttr), d = n.getAttribute("data-ratio"), f = n.getAttribute("data-optimumx"); n._lazybgset && n._lazybgset.parentNode == n && n.removeChild(n._lazybgset), Object.defineProperty(u, "_lazybgset", { value: n, writable: !0 }), Object.defineProperty(n, "_lazybgset", { value: s, writable: !0 }), t = t.replace(i, " ").split(a), s.style.display = "none", u.className = r.lazyClass, 1 != t.length || l || (l = "auto"), t.forEach((function (t) { var n, i = e.createElement("source"); l && "auto" != l && i.setAttribute("sizes", l), (n = t.match(o)) ? (i.setAttribute(r.srcsetAttr, n[1]), c(i, n[2]), c(i, n[3])) : i.setAttribute(r.srcsetAttr, t), s.appendChild(i) })), l && (u.setAttribute(r.sizesAttr, l), n.removeAttribute(r.sizesAttr), n.removeAttribute("sizes")), f && u.setAttribute("data-optimumx", f), d && u.setAttribute("data-ratio", d), s.appendChild(u), n.appendChild(s) }(u, l, s), setTimeout((function () { n.loader.unveil(s), n.rAF((function () { n.fire(s, "_lazyloaded", {}, !0, !0), s.complete && d({ target: s }) })) }))) })), e.addEventListener("load", d, !0), t.addEventListener("lazybeforesizes", (function (t) { if (t.detail.instance == n && t.target._lazybgset && t.detail.dataAttr) { var e = function (t) { var e; return e = (getComputedStyle(t) || { getPropertyValue: function () { } }).getPropertyValue("background-size"), !l[e] && l[t.style.backgroundSize] && (e = t.style.backgroundSize), e }(t.target._lazybgset); l[e] && (t.target._lazysizesParentFit = e, n.rAF((function () { t.target.setAttribute("data-parent-fit", e), t.target._lazysizesParentFit && delete t.target._lazysizesParentFit }))) } }), !0), e.documentElement.addEventListener("lazybeforesizes", (function (t) { var e, r; !t.defaultPrevented && t.target._lazybgset && t.detail.instance == n && (t.detail.width = (e = t.target._lazybgset, r = n.gW(e, e.parentNode), (!e._lazysizesWidth || r > e._lazysizesWidth) && (e._lazysizesWidth = r), e._lazysizesWidth)) })) } }, c = document, d = c.createElement("span"); d.setAttribute("id", "elementor-device-mode"), d.setAttribute("class", "elementor-screen-only"); var f = window, p = document, v = p.documentElement, g = function (t) { return t.getAttribute("class") || "" }, m = function (t, e) { return t.setAttribute("class", e) }, y = function () { window.addEventListener("load", (function () { var t = (c.body.appendChild(d), getComputedStyle(d, ":after").content.replace(/"/g, "")), e = Math.max(v.clientWidth || 0, f.innerWidth || 0), n = Math.max(v.clientHeight || 0, f.innerHeight || 0), i = ["_animation_" + t, "animation_" + t, "_animation", "_animation", "animation"]; Array.from(p.querySelectorAll(".elementor-invisible")).forEach((function (t) { var a = t.getBoundingClientRect(); if (a.top + f.scrollY <= n && a.left + f.scrollX < e) try { var o = JSON.parse(t.getAttribute("data-settings")); if (o.trigger_source) return; for (var u, s = o._animation_delay || o.animation_delay || 0, l = 0; l < i.length; l++)if (o[i[l]]) { i[l], u = o[i[l]]; break } if (u) { var c = g(t), d = "none" === u ? c : c + " animated " + u, p = setTimeout((function () { m(t, d.replace(/\belementor\-invisible\b/, "")), i.forEach((function (t) { return delete o[t] })), t.setAttribute("data-settings", JSON.stringify(o)) }), s); r.on("fi", (function () { clearTimeout(p), m(t, g(t).replace(new RegExp("\b" + u + "\b"), "")) })) } } catch (t) { console.error(t) } })) })) }, h = document, b = "querySelectorAll", z = "data-in-mega_smartmenus", A = "DOMContentLoaded", E = "requestIdleCallback", _ = console.error, C = "data-wpmeteor-"; !function (t, e, n, o, c, d, f, p, v, g) { var m = function (e, n) { n = n || t; for (var r = 0; r < this.length; r++)e.call(n, this[r], r, this) }; "NodeList" in t && !NodeList.prototype.forEach && (NodeList.prototype.forEach = m), "HTMLCollection" in t && !HTMLCollection.prototype.forEach && (HTMLCollection.prototype.forEach = m), _wpmeteor["elementor-animations"] && y(), _wpmeteor["elementor-pp"] && function () { var t = h.createElement("div"); t.innerHTML = '<span class="sub-arrow --wp-meteor"><i class="fa" aria-hidden="true"></i></span>'; var e = t.firstChild; h.addEventListener("DOMContentLoaded", (function () { Array.from(h[b](".pp-advanced-menu ul")).forEach((function (t) { if (!t.getAttribute(z)) { (t.getAttribute("class") || "").match(/\bmega\-menu\b/) && t[b]("ul").forEach((function (t) { t.setAttribute(z, !0) })); var n = function (t) { for (var e = []; t = t.previousElementSibling;)e.push(t); return e }(t), r = n.filter((function (t) { return t })).filter((function (t) { return "A" === t.tagName })).pop(); if (r || (r = n.map((function (t) { return Array.from(t[b]("a")) })).filter((function (t) { return t })).flat().pop()), r) { var i = e.cloneNode(!0); r.appendChild(i), new MutationObserver((function (t) { t.forEach((function (t) { t.addedNodes.forEach((function (t) { if (1 === t.nodeType && "SPAN" === t.tagName) try { r.removeChild(i) } catch (t) { } })) })) })).observe(r, { childList: !0 }) } } })) })) }(); var w, L, S = [], N = [], T = !1, P = !1, x = [], M = [], O = [], j = [], k = !1, W = [], F = [], H = !1, R = !1, B = setTimeout; var D = e[n].bind(e), q = e[o].bind(e), $ = t[n].bind(t), I = t[o].bind(t); "undefined" != typeof EventTarget && (w = EventTarget.prototype.addEventListener, L = EventTarget.prototype.removeEventListener, D = w.bind(e), q = L.bind(e), $ = w.bind(t), I = L.bind(t)); var J = e.createElement.bind(e), Q = function (t, e, n) { for (var r; r = t.shift();)try { r.hasOwnProperty("prototype") && r.prototype.constructor !== r ? r(e) : r.bind(n || e.target)(e) } catch (t) { _(t, r) } }, U = function () { H = !0, Q(F, k), R = !0, setTimeout((function () { return r.emit("l") })) }; D(A, (function (t) { return P = t })), $(p, (function (t) { return k = t })), D(A, (function (e) { Q(x, e), Q(M, e, t) })), $(p, (function (t) { Q(W, t) })); var V = function e() { var n = S.shift(); n ? n[c]("data-src") ? n.hasAttribute("async") ? (G(n), B(e)) : G(n, e) : "javascript/blocked" == n.type ? (G(n), B(e)) : B(e) : O.length ? (Q(O, P), B(e)) : j.length ? (Q(j, P, t), B(e)) : k ? U() : $(p, U) }, X = function (t) { for (var n = e.createElement("SCRIPT"), r = t.attributes, i = r.length - 1; i >= 0; i--)n[d](r[i].name, r[i].value); return n.bypass = !0, n.type = "text/javascript", n.text = t.text, n[f]("data-wpmeteor-after"), n }, Y = function (t, e) { var n = t.parentNode; n && n.replaceChild(e, t) }, G = function (t, e) { if (t[c]("data-src")) { var r = X(t), i = w ? w.bind(r) : r[n].bind(r); if (e) { var a = function () { return B(e) }; i(p, a), i(v, a) } i(v, (function (t) { return _(t) })), r.src = t[c]("data-src"), r[f]("data-src"), Y(t, r) } else "javascript/blocked" === t.type ? Y(t, X(t)) : onLoad && onLoad() }; e[n] = function (t, e) { if (!e || t !== A) { for (var n = arguments.length, r = new Array(n > 2 ? n - 2 : 0), i = 2; i < n; i++)r[i - 2] = arguments[i]; return D.apply(void 0, [t, e].concat(r)) } T ? H ? Q([e], P) : O.push(e) : x.push(e) }, e[o] = function (t, e) { return t === A && (x = x.filter((function (t) { return t !== e })), O = O.filter((function (t) { return t !== e }))), q(t, e) }; D(A, (function () { e.querySelectorAll("script[" + C + "after]").forEach((function (t) { return S.push(t) })), e.querySelectorAll("iframe[" + C + "after]").forEach((function (t) { return N.push(t) })) })), new a, r.on("l", (function () { N.forEach((function (t) { t.src = t[c]("data-src") })) })); var K = function (t) { e.currentScript ? e.currentScript.insertAdjacentHTML("afterend", t) : _((new Date - i) / 1e3, "document.currentScript not set", t) }; Object.defineProperty(e, "write", { get: function () { return K }, set: function (t) { return K = t } }), t[n] = function (e, n) { if (n && e === p) T ? R ? Q([n], k) : F.push(n) : W.push(n); else { if (!n || e !== A) { for (var r = arguments.length, i = new Array(r > 2 ? r - 2 : 0), a = 2; a < r; a++)i[a - 2] = arguments[a]; return $.apply(void 0, [e, n].concat(i)) } T ? H ? Q([n], P, t) : j.push(n) : M.push(n) } }, t[o] = function (t, e) { return t === p && (W = W.filter((function (t) { return t !== e })), F = F.filter((function (t) { return t !== e }))), I(t, e) }; var Z = [], tt = 1, et = function () { --tt || r.emit("i") }, nt = function (t) { -1 === Z.indexOf(t.target) && (tt++, Z.push(t.target), t.target[n]("lazyloaded", et), setTimeout((function () { t.target[o]("lazyloaded", et), et() }), 300)) }; D("lazybeforeunveil", nt), t._wpmnl || $(p, (function () { var n = s(t, e, Date, { expand: 10, expFactor: 1, hFac: 1, loadMode: 1, ricTimeout: 50, loadHidden: !0, init: !1 }); l(t, e, n), n.init() })), $(p, et); var rt = function t(n) { T || (g.forEach((function (n) { return e.body[o](n, t, u) })), I(p, t), e[o]("lazybeforeunveil", nt), T = !0, location.href.match(/wpmeteornopreload/) || S.forEach((function (t) { var n = t[c]("data-src"); if (n) { var r = J("link"); r.rel = "pre" + p, r.as = "script", r.href = n, r.crossorigin = !0, e.head.appendChild(r) } })), r.emit("fi"), B(V)) }; if (D(A, (function () { return g.forEach((function (t) { return e.body[n](t, rt, u) })) })), _wpmeteor.rdelay <= 2e3) { var it = setTimeout.bind(null, rt, _wpmeteor.rdelay); r.on("i", (function () { Z = [], E in t ? t[E](it) : it() })) } var at = function (t) { var e = new MouseEvent("click", { view: t.view, bubbles: !0, cancelable: !0 }); return Object.defineProperty(e, "target", { writable: !1, value: t.target }), e }, ot = ["mouseover", "mouseout", "touchstart", "touchend", "click"], ut = [], st = function (t) { t.target && "dispatchEvent" in t.target && ("click" === t.type ? (t.preventDefault(), t.stopPropagation(), ut.push(at(t))) : ut.push(t), t.target[d](C + t.type, !0)) }; r.on("l", (function () { var t; for (ot.forEach((function (t) { return I(t, st) })); t = ut.shift();) { var e = t.target; e[c](C + "touchstart") && e[c](C + "touchend") && !e[c](C + "click") && (e[f](C + "touchstart"), e[f](C + "touchend"), ut.push(at(t))), e.dispatchEvent(t) } })), ot.forEach((function (t) { return $(t, st) })) }(window, document, "addEventListener", "removeEventListener", "getAttribute", "setAttribute", "removeAttribute", "load", "error", ["mouseover", "keydown", "touchmove", "touchend", "wheel"]) }]);
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- Google Tag Manager for WordPress by gtm4wp.com -->
+    <script type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">//<![CDATA[
+        var gtm4wp_datalayer_name = "dataLayer";
+        var dataLayer = dataLayer || [];
+//]]>
+    </script>
+    <!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+    <!-- This site is optimized with the Yoast SEO plugin v16.2 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>Facebook Share</title>
+
+    <meta name="description"
+        content="Come check out the Wordscapes cheats whenever you feel stuck. On the next page you will find a list with all Wordscapes Answers.">
+    <link rel="canonical" href="https://braingames.net/categories/">
+
+    <meta property="og:locale" content="en_US">
+    <!-- <meta property="og:url" content="https://braingames.net/word-games/shares/ABCDEFG" /> -->
+    <meta property="og:url" content="https://hardcore-einstein-fe8b05.netlify.app/" />
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Word Farm Adventure- Free Word Games" />
+    <meta property="og:description" content="Check out what I did by playing word puzzles" />
+    <!-- <meta property="og:image" content="https://shares.braingames.net/ABCDEFG/share.jpg" /> -->
+
+    <meta property="fb:app_id" content="" />
+    <!-- <meta property="og:image" content="https://venturebeat.com/wp-content/uploads/2020/07/eitan.jpg?w=1200&strip=all" /> -->
+    <meta property="og:image"
+        content="https://scontent.ftlv1-1.fna.fbcdn.net/v/t1.6435-9/p843x403/193685896_106159568350783_6213348944441708157_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=Lpjv-8dAFzsAX9LjN6v&tn=jICv8TL8v_MAYhBL&_nc_ht=scontent.ftlv1-1.fna&tp=6&oh=51d663f543cc20c197b3f84b62013afd&oe=60DC2A38"
+        width="400" height="200" />
+    <!-- <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="100" /> -->
+    <!-- content=" /bg/static/images/<%=person%>.jpg" /> -->
+    <!-- width="1000" height="100" -->
+
+
+    <meta property="og:site_name" content="Brain Games">
+
+    <meta property="article:modified_time" content="2021-05-12T18:54:18+00:00">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json"
+        class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://braingames.net/#organization","name":"Brain Games","url":"https://braingames.net/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://braingames.net/#logo","inLanguage":"en-US","url":"https://braingames.net/wp-content/uploads/2020/10/BrainGamesLogo_m-1.jpg","contentUrl":"https://braingames.net/wp-content/uploads/2020/10/BrainGamesLogo_m-1.jpg","width":88,"height":80,"caption":"Brain Games"},"image":{"@id":"https://braingames.net/#logo"}},{"@type":"WebSite","@id":"https://braingames.net/#website","url":"https://braingames.net/","name":"Brain Games","description":"","publisher":{"@id":"https://braingames.net/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://braingames.net/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://braingames.net/categories/#webpage","url":"https://braingames.net/categories/","name":"Wordscapes Answers and Cheat - All Levels | Brain Games","isPartOf":{"@id":"https://braingames.net/#website"},"datePublished":"2021-02-16T11:53:52+00:00","dateModified":"2021-05-12T18:54:18+00:00","description":"Come check out the Wordscapes cheats whenever you feel stuck. On the next page you will find a list with all Wordscapes Answers.","breadcrumb":{"@id":"https://braingames.net/categories/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://braingames.net/categories/"]}]},{"@type":"BreadcrumbList","@id":"https://braingames.net/categories/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://braingames.net/","url":"https://braingames.net/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https://braingames.net/categories/#webpage"}}]}]}</script>
+    <!-- / Yoast SEO plugin. -->
+
+
+    <link rel="dns-prefetch" href="//cdn.ampproject.org">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="alternate" type="application/rss+xml" title="Brain Games » Feed" href="https://braingames.net/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Brain Games » Comments Feed"
+        href="https://braingames.net/comments/feed/">
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/braingames.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2" } };
+        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <!-- <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+
+        img.imgFacebook {
+            height: 200;
+            width: 400;
+        } -->
+    </style>
+    <!-- <link rel="stylesheet" id="braingames-css"
+        href="https://braingames.net/wp-content/plugins/braingames-levels/assets/css/braingames.css?ver=2047487349"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="simple-sitemap-css-css"
+        href="https://braingames.net/wp-content/plugins/simple-sitemap/lib/assets/css/simple-sitemap.css?ver=5.7.2"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="OpenSans-font-css"
+        href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap&amp;ver=5.7.2"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="hello-elementor-css"
+        href="https://braingames.net/wp-content/themes/hello-elementor/style.min.css?ver=2.3.1" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="hello-elementor-theme-style-css"
+        href="https://braingames.net/wp-content/themes/hello-elementor/theme.min.css?ver=2.3.1" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-frontend-legacy-css"
+        href="https://braingames.net/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.2.2"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css"
+        href="https://braingames.net/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.2.2" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-12507-css"
+        href="https://braingames.net/wp-content/uploads/elementor/css/post-12507.css?ver=1619964212" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-pro-css"
+        href="https://braingames.net/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.2.1"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-5-all-css"
+        href="https://braingames.net/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.2.2"
+        type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-12690-css"
+        href="https://braingames.net/wp-content/uploads/elementor/css/post-12690.css?ver=1619967042" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="elementor-post-12694-css"
+        href="https://braingames.net/wp-content/uploads/elementor/css/post-12694.css?ver=1621965233" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="hello-elementor-child-style-css"
+        href="https://braingames.net/wp-content/themes/hello-theme-child-master/style.css?ver=1.0.0" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="child-fonts-css"
+        href="https://braingames.net/wp-content/themes/hello-theme-child-master/css/fonts.css?ver=5.7.2" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="child-main-css"
+        href="https://braingames.net/wp-content/themes/hello-theme-child-master/css/main.css?ver=5.7.2" type="text/css"
+        media="all">
+    <link rel="stylesheet" id="google-fonts-1-css"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.7.2"
+        type="text/css" media="all"> -->
+    <script id="jquery-core-js" type="text/javascript"
+        src="https://braingames.net/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"></script>
+    <script id="gtm4wp-form-move-tracker-js" type="text/javascript"
+        src="https://braingames.net/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.12.3"></script>
+    <link rel="https://api.w.org/" href="https://braingames.net/wp-json/">
+    <link rel="alternate" type="application/json" href="https://braingames.net/wp-json/wp/v2/pages/12464">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://braingames.net/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://braingames.net/wp-includes/wlwmanifest.xml">
+    <link rel="shortlink" href="https://braingames.net/?p=12464">
+    <link rel="alternate" type="application/json+oembed"
+        href="https://braingames.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbraingames.net%2Fcategories%2F">
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://braingames.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbraingames.net%2Fcategories%2F&amp;format=xml">
+    <meta name="generator" content="Site Kit by Google 1.31.0">
+    <!-- Google Tag Manager for WordPress by gtm4wp.com -->
+    <script type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">//<![CDATA[
+        var dataLayer_content = { "pagePostType": "page", "pagePostType2": "single-page", "pagePostAuthor": "braingames" };
+        dataLayer.push(dataLayer_content);//]]>
+    </script>
+
+    <script data-cfasync="false" type="text/javascript">//<![CDATA[
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.' + 'js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WZQQF6X');//]]>
+    </script>
+
+    <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+    <link rel="icon" href="https://braingames.net/wp-content/uploads/2020/12/cropped-WordFarmScapesIcon-32x32.png"
+        sizes="32x32">
+    <link rel="icon" href="https://braingames.net/wp-content/uploads/2020/12/cropped-WordFarmScapesIcon-192x192.png"
+        sizes="192x192">
+    <link rel="apple-touch-icon"
+        href="https://braingames.net/wp-content/uploads/2020/12/cropped-WordFarmScapesIcon-180x180.png">
+    <meta name="msapplication-TileImage"
+        content="https://braingames.net/wp-content/uploads/2020/12/cropped-WordFarmScapesIcon-270x270.png">
+    <link rel="preload" as="script" href="https://braingames.net/wp-includes/js/jquery/jquery.min.js?ver=3.5.1">
+    <link rel="preload" as="script"
+        href="https://braingames.net/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.12.3">
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js?ver=1.0">
+    <link rel="preload" as="script"
+        href="https://braingames.net/wp-content/themes/hello-theme-child-master/js/main.js?ver=1.0">
+    <link rel="preload" as="script"
+        href="https://braingames.net/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1">
+    <link rel="preload" as="script"
+        href="https://braingames.net/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.2.1">
+    <link rel="preload" as="script"
+        href="https://braingames.net/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.2.2">
+    <link rel="preload" as="script"
+        href="https://braingames.net/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.2.2">
+    <link rel="preload" as="script"
+        href="https://braingames.net/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.2.1">
+    <link rel="preload" as="script"
+        href="https://braingames.net/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.2.1">
+    <script src="https://braingames.net/wp-includes/js/wp-emoji-release.min.js?ver=5.7.2" type="text/javascript"
+        defer=""></script>
+    <script
+        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/451311406/?random=1622037239321&amp;cv=9&amp;fst=1622037239321&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=2505059650&amp;u_h=720&amp;u_w=1280&amp;u_ah=680&amp;u_aw=1280&amp;u_cd=24&amp;u_his=10&amp;u_tz=180&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wg5j0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fbraingames.net%2Fcategories%2F&amp;ref=https%3A%2F%2Fbraingames.net%2Fcategories%2Farise-pack_285%2F&amp;tiba=Wordscapes%20Answers%20and%20Cheat%20-%20All%20Levels%20%7C%20Brain%20Games&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
+
+
+</head>
+
+<body data-rsssl="1"
+    class="page-template-default page page-id-12464 wp-custom-logo elementor-default elementor-kit-12507"
+    data-new-gr-c-s-check-loaded="14.1012.0" data-gr-ext-installed="">
+
+
+    <img class="imgFacebook"
+        src="https://scontent.ftlv1-1.fna.fbcdn.net/v/t1.6435-9/p843x403/193685896_106159568350783_6213348944441708157_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=Lpjv-8dAFzsAX9LjN6v&tn=jICv8TL8v_MAYhBL&_nc_ht=scontent.ftlv1-1.fna&tp=6&oh=51d663f543cc20c197b3f84b62013afd&oe=60DC2A38"
+        width="400" height="200" />
+
+
+
+    <div data-elementor-type="header" data-elementor-id="12690"
+        class="elementor elementor-12690 elementor-location-header" data-elementor-settings="[]">
+        <div class="elementor-section-wrap">
+            <header
+                class="elementor-section elementor-top-section elementor-element elementor-element-4bb3999c elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="4bb3999c" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-row">
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-568c3944"
+                            data-id="568c3944" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-1f2d522b elementor-widget elementor-widget-theme-site-logo elementor-widget-image"
+                                        data-id="1f2d522b" data-element_type="widget"
+                                        data-widget_type="theme-site-logo.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-image">
+                                                <a href="https://braingames.net">
+                                                    <picture class="attachment-full size-full" loading="lazy">
+                                                        <source type="image/webp"
+                                                            data-srcset="https://braingames.net/wp-content/uploads/2021/03/admin-ajax-e1616355540835.png.webp"
+                                                            srcset="https://braingames.net/wp-content/uploads/2021/03/admin-ajax-e1616355540835.png.webp">
+                                                        <img class="lazy loaded" width="254" height="65"
+                                                            src="https://braingames.net/wp-content/uploads/2021/03/admin-ajax-e1616355540835.png"
+                                                            data-src="https://braingames.net/wp-content/uploads/2021/03/admin-ajax-e1616355540835.png"
+                                                            alt="" loading="lazy" data-was-processed="true">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-65737f5d"
+                            data-id="65737f5d" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated"
+                                data-wpmeteor-mouseover="true" data-wpmeteor-mouseout="true">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-6354db93 elementor-nav-menu--indicator-angle elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu"
+                                        data-id="6354db93" data-element_type="widget"
+                                        data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}"
+                                        data-widget_type="nav-menu.default">
+                                        <div class="elementor-widget-container">
+                                            <nav role="navigation"
+                                                class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+                                                <ul id="menu-1-6354db93" class="elementor-nav-menu">
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-12720">
+                                                        <a href="https://braingames.net/"
+                                                            class="elementor-item">home</a>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12775">
+                                                        <a href="https://braingames.net/games/"
+                                                            class="elementor-item">Games</a>
+                                                        <ul class="sub-menu elementor-nav-menu--dropdown">
+                                                            <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12723">
+                                                                <a href="https://braingames.net/word-farm-adventure/"
+                                                                    class="elementor-sub-item">Word Farm Adventure</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12721">
+                                                        <a href="https://braingames.net/blog/"
+                                                            class="elementor-item">Blog</a>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12724">
+                                                        <a href="https://braingames.net/contact-us/"
+                                                            class="elementor-item">Contact Us</a>
+                                                    </li>
+
+                                                    <!-- TODO: handle links from other top nav categotries to `Facebook Share` -->
+                                                    <!------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------- -->
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12464 current_page_item menu-item-12467">
+                                                        <a href="localhost:8066/index" aria-current="page"
+                                                            class="elementor-item elementor-item-active"
+                                                            data-wpmeteor-mouseover="true"
+                                                            data-wpmeteor-mouseout="true">Facebook Share</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                            <div class="elementor-menu-toggle" role="button" tabindex="0"
+                                                aria-label="Menu Toggle" aria-expanded="false">
+                                                <i class="eicon-menu-bar" aria-hidden="true"></i>
+                                                <span class="elementor-screen-only">Menu</span>
+                                            </div>
+                                            <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
+                                                role="navigation" aria-hidden="true">
+                                                <ul id="menu-2-6354db93" class="elementor-nav-menu">
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-12720">
+                                                        <a href="https://braingames.net/"
+                                                            class="elementor-item">home</a>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12775">
+                                                        <a href="https://braingames.net/games/"
+                                                            class="elementor-item">Games</a>
+                                                        <ul class="sub-menu elementor-nav-menu--dropdown">
+                                                            <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12723">
+                                                                <a href="https://braingames.net/word-farm-adventure/"
+                                                                    class="elementor-sub-item">Word Farm Adventure</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12721">
+                                                        <a href="https://braingames.net/blog/"
+                                                            class="elementor-item">Blog</a>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12724">
+                                                        <a href="https://braingames.net/contact-us/"
+                                                            class="elementor-item">Contact Us</a>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12464 current_page_item menu-item-12467">
+                                                        <a href="https://braingames.net/categories/" aria-current="page"
+                                                            class="elementor-item elementor-item-active">Wordscapes
+                                                            answers</a>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12464 current_page_item menu-item-12467">
+                                                        <a href="localhost:8066/index" aria-current="page"
+                                                            class="elementor-item elementor-item-active">FaceBook Share
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4f24c011"
+                            data-id="4f24c011" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-22626570 app elementor-widget elementor-widget-image"
+                                        data-id="22626570" data-element_type="widget" data-widget_type="image.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-image">
+                                                <a href="https://apps.apple.com/us/app/word-farm-scapes/id1481009631">
+                                                    <picture class="attachment-large size-large" loading="lazy">
+                                                        <source type="image/webp"
+                                                            data-srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes.png.webp 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-300x116.png.webp 300w"
+                                                            data-sizes="(max-width: 646px) 100vw, 646px"
+                                                            sizes="(max-width: 646px) 100vw, 646px"
+                                                            srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes.png.webp 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-300x116.png.webp 300w">
+                                                        <img class="lazy loaded" width="646" height="250"
+                                                            src="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes.png"
+                                                            data-src="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes.png"
+                                                            alt="" loading="lazy"
+                                                            data-srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes.png 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-300x116.png 300w"
+                                                            data-sizes="(max-width: 646px) 100vw, 646px"
+                                                            sizes="(max-width: 646px) 100vw, 646px"
+                                                            srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes.png 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-300x116.png 300w"
+                                                            data-was-processed="true">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6fc2a5a5"
+                            data-id="6fc2a5a5" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-15cb5502 app elementor-widget elementor-widget-image"
+                                        data-id="15cb5502" data-element_type="widget" data-widget_type="image.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-image">
+                                                <a
+                                                    href="https://play.google.com/store/apps/details?id=com.wordfarm.scapes">
+                                                    <picture class="attachment-full size-full" loading="lazy">
+                                                        <source type="image/webp"
+                                                            data-srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay.png.webp 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-300x116.png.webp 300w"
+                                                            data-sizes="(max-width: 646px) 100vw, 646px"
+                                                            sizes="(max-width: 646px) 100vw, 646px"
+                                                            srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay.png.webp 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-300x116.png.webp 300w">
+                                                        <img class="lazy loaded" width="646" height="250"
+                                                            src="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay.png"
+                                                            data-src="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay.png"
+                                                            alt="" loading="lazy"
+                                                            data-srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay.png 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-300x116.png 300w"
+                                                            data-sizes="(max-width: 646px) 100vw, 646px"
+                                                            sizes="(max-width: 646px) 100vw, 646px"
+                                                            srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay.png 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-300x116.png 300w"
+                                                            data-was-processed="true">
+                                                    </picture>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <header
+                class="elementor-section elementor-top-section elementor-element elementor-element-6773313f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="6773313f" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-row">
+                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b61464e"
+                            data-id="1b61464e" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-9ef92f8 elementor-widget elementor-widget-breadcrumbs"
+                                        data-id="9ef92f8" data-element_type="widget"
+                                        data-widget_type="breadcrumbs.default">
+                                        <div class="elementor-widget-container">
+                                            <p id="breadcrumbs" data-wpmeteor-mouseover="true"
+                                                data-wpmeteor-mouseout="true"><span><span><a
+                                                            href="https://braingames.net/">Home</a> » <strong
+                                                            class="breadcrumb_last" aria-current="page">Facebook Share
+                                                        </strong></span></span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <section class="category-head" data-wpmeteor-mouseover="true">
+        <h1>Word Farm Game Facebook Share!!</h1>
+
+        <img class="imgFacebook"
+            src="https://scontent.ftlv1-1.fna.fbcdn.net/v/t1.6435-9/p843x403/193685896_106159568350783_6213348944441708157_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=730e14&_nc_ohc=Lpjv-8dAFzsAX9LjN6v&tn=jICv8TL8v_MAYhBL&_nc_ht=scontent.ftlv1-1.fna&tp=6&oh=51d663f543cc20c197b3f84b62013afd&oe=60DC2A38"
+            width="400" height="200" />
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section class="level-categories-nav">
+        <div class="level-categories-container">
+            <span class="level-categories-pag prev">
+            </span>
+            <span class="level-categories-pag next">
+            </span>
+        </div>
+    </section>
+
+
+    <div data-elementor-type="footer" data-elementor-id="12694"
+        class="elementor elementor-12694 elementor-location-footer" data-elementor-settings="[]">
+        <div class="elementor-section-wrap">
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-3cb949d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="3cb949d5" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-row">
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-72eeab1a"
+                            data-id="72eeab1a" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <section
+                                        class="elementor-section elementor-inner-section elementor-element elementor-element-8d261dd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                        data-id="8d261dd" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-row">
+                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-34930d77"
+                                                    data-id="34930d77" data-element_type="column">
+                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                        <div class="elementor-widget-wrap">
+                                                            <div class="elementor-element elementor-element-7d1f0ec6 app elementor-widget elementor-widget-image"
+                                                                data-id="7d1f0ec6" data-element_type="widget"
+                                                                data-widget_type="image.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="elementor-image">
+                                                                        <a href="https://app.adjust.com/f4xqd1j">
+                                                                            <picture class="attachment-large size-large"
+                                                                                loading="lazy">
+                                                                                <source type="image/webp"
+                                                                                    data-srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-1.png.webp 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-1-300x116.png.webp 300w"
+                                                                                    data-sizes="(max-width: 646px) 100vw, 646px">
+                                                                                <img class="lazy" width="646"
+                                                                                    height="250"
+                                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20646%20250'%3E%3C/svg%3E"
+                                                                                    data-src="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-1.png"
+                                                                                    alt="" loading="lazy"
+                                                                                    data-srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-1.png 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Itunes-1-300x116.png 300w"
+                                                                                    data-sizes="(max-width: 646px) 100vw, 646px">
+                                                                            </picture>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4cf3d588"
+                                                    data-id="4cf3d588" data-element_type="column">
+                                                    <div class="elementor-column-wrap elementor-element-populated">
+                                                        <div class="elementor-widget-wrap">
+                                                            <div class="elementor-element elementor-element-58e0bc44 app elementor-widget elementor-widget-image"
+                                                                data-id="58e0bc44" data-element_type="widget"
+                                                                data-widget_type="image.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="elementor-image">
+                                                                        <a href="https://app.adjust.com/ro110su">
+                                                                            <picture class="attachment-full size-full"
+                                                                                loading="lazy">
+                                                                                <source type="image/webp"
+                                                                                    data-srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-1.png.webp 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-1-300x116.png.webp 300w"
+                                                                                    data-sizes="(max-width: 646px) 100vw, 646px">
+                                                                                <img class="lazy" width="646"
+                                                                                    height="250"
+                                                                                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20646%20250'%3E%3C/svg%3E"
+                                                                                    data-src="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-1.png"
+                                                                                    alt="" loading="lazy"
+                                                                                    data-srcset="https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-1.png 646w, https://braingames.net/wp-content/uploads/2021/04/WordFarmScapes_Googleplay-1-300x116.png 300w"
+                                                                                    data-sizes="(max-width: 646px) 100vw, 646px">
+                                                                            </picture>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <div class="elementor-element elementor-element-1d4642bc e-grid-align-left elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
+                                        data-id="1d4642bc" data-element_type="widget"
+                                        data-widget_type="social-icons.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-social-icons-wrapper elementor-grid">
+                                                <div class="elementor-grid-item">
+                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-0267196"
+                                                        href="https://www.facebook.com/wordfarmadventure/"
+                                                        target="_blank">
+                                                        <span class="elementor-screen-only">Facebook-f</span>
+                                                        <i class="fab fa-facebook-f"></i> </a>
+                                                </div>
+                                                <div class="elementor-grid-item">
+                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-225393c"
+                                                        href="https://www.instagram.com/word_farm_adventure/"
+                                                        target="_blank">
+                                                        <span class="elementor-screen-only">Instagram</span>
+                                                        <i class="fab fa-instagram"></i> </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-42f9322f"
+                            data-id="42f9322f" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-cada4b2 elementor-widget elementor-widget-heading"
+                                        data-id="cada4b2" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h2 class="elementor-heading-title elementor-size-default"><a
+                                                    href="https://braingames.net/games/word-farm-scapes-game/">Word Farm
+                                                    Adventure</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-2b005c47 elementor-align-left elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                        data-id="2b005c47" data-element_type="widget"
+                                        data-widget_type="icon-list.default">
+                                        <div class="elementor-widget-container">
+                                            <ul class="elementor-icon-list-items">
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/about-us/"> <span
+                                                            class="elementor-icon-list-text">About Us</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/privacy-policy/"> <span
+                                                            class="elementor-icon-list-text">Privacy Policy</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/contact-us/"> <span
+                                                            class="elementor-icon-list-text">Contact Us</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/categories/"> <span
+                                                            class="elementor-icon-list-text">Wordscapes Answers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/sitemap/"> <span
+                                                            class="elementor-icon-list-text">Site Map</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-d088705"
+                            data-id="d088705" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-393794ce elementor-widget elementor-widget-heading"
+                                        data-id="393794ce" data-element_type="widget"
+                                        data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h2 class="elementor-heading-title elementor-size-default">Most Popular
+                                                Sharing</h2>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-5febb6f6 elementor-align-left elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                        data-id="5febb6f6" data-element_type="widget"
+                                        data-widget_type="icon-list.default">
+                                        <div class="elementor-widget-container">
+                                            <ul class="elementor-icon-list-items">
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/wordscapes-answers-level/85/"> <span
+                                                            class="elementor-icon-list-text">Wordscapes Level 85</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/wordscapes-answers-level/88/"> <span
+                                                            class="elementor-icon-list-text">Wordscapes Level 88</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/wordscapes-answers-level/104/">
+                                                        <span class="elementor-icon-list-text">Wordscapes Level
+                                                            104</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/wordscapes-answers-level/108/">
+                                                        <span class="elementor-icon-list-text">Wordscapes Level
+                                                            108</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/wordscapes-answers-level/124/">
+                                                        <span class="elementor-icon-list-text">Wordscapes Level
+                                                            124</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-332a9135"
+                            data-id="332a9135" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-60cc2e65 elementor-widget elementor-widget-heading"
+                                        data-id="60cc2e65" data-element_type="widget"
+                                        data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h2 class="elementor-heading-title elementor-size-default"><a
+                                                    href="https://braingames.net/blog/">Blog</a></h2>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-164c043a elementor-align-left elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                        data-id="164c043a" data-element_type="widget"
+                                        data-widget_type="icon-list.default">
+                                        <div class="elementor-widget-container">
+                                            <ul class="elementor-icon-list-items">
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/word-games-for-adults/"> <span
+                                                            class="elementor-icon-list-text">Word Games For
+                                                            Adults</span>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-icon-list-item">
+                                                    <a href="https://braingames.net/benefits-of-word-games/"> <span
+                                                            class="elementor-icon-list-text">5 Benefits of Word
+                                                            Games</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer
+                class="elementor-section elementor-top-section elementor-element elementor-element-59780d86 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+                data-id="59780d86" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-row">
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6e2085e8"
+                            data-id="6e2085e8" data-element_type="column">
+                            <div class="elementor-column-wrap elementor-element-populated">
+                                <div class="elementor-widget-wrap">
+                                    <div class="elementor-element elementor-element-610bdaa0 elementor-widget elementor-widget-heading"
+                                        data-id="610bdaa0" data-element_type="widget"
+                                        data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h3 class="elementor-heading-title elementor-size-default">© 2021
+                                                Brain-Games.net
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6ac28b29"
+                            data-id="6ac28b29" data-element_type="column">
+                            <div class="elementor-column-wrap">
+                                <div class="elementor-widget-wrap">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <a rel="nofollow" style="display:none;" href="https://braingames.net/?blackhole=5445fd955b"
+        title="Do NOT follow this link or you will be banned from the site!">Brain Games</a>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZQQF6X" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <script id="amp-sidebar-js" type="text/javascript"
+        src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js?ver=1.0"></script>
+    <script id="main-js-js" type="text/javascript"
+        src="https://braingames.net/wp-content/themes/hello-theme-child-master/js/main.js?ver=1.0"></script>
+    <script id="smartmenus-js" type="text/javascript"
+        src="https://braingames.net/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1"></script>
+    <script id="elementor-pro-webpack-runtime-js" type="text/javascript"
+        src="https://braingames.net/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.2.1"></script>
+    <script id="elementor-webpack-runtime-js" type="text/javascript"
+        src="https://braingames.net/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.2.2"></script>
+    <script id="elementor-frontend-modules-js" type="text/javascript"
+        src="https://braingames.net/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.2.2"></script>
+    <script id="elementor-sticky-js" type="text/javascript"
+        src="https://braingames.net/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.2.1"></script>
+    <script id="elementor-pro-frontend-js-before" type="text/javascript">
+        var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/braingames.net\/wp-admin\/admin-ajax.php", "nonce": "7e2baa9791", "urls": { "assets": "https:\/\/braingames.net\/wp-content\/plugins\/elementor-pro\/assets\/" }, "i18n": { "toc_no_headings_found": "No headings were found on this page." }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "google": { "title": "Google+", "has_counter": true }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" } }, "facebook_sdk": { "lang": "en_US", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/braingames.net\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+    </script>
+    <script id="elementor-pro-frontend-js" type="text/javascript"
+        src="https://braingames.net/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.2.1"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            //$( document ).ajaxStart(function() {
+            //});
+
+
+            for (var i = 0; i < document.forms.length; ++i) {
+                var form = document.forms[i];
+                if ($(form).attr("method") != "get") { $(form).append('<input type="hidden" name="TXBNleq-JZ" value="SlzC5p]" />'); }
+                if ($(form).attr("method") != "get") { $(form).append('<input type="hidden" name="QJfeHI" value="x.XCb1o" />'); }
+            }
+
+
+            $(document).on('submit', 'form', function () {
+                if ($(this).attr("method") != "get") { $(this).append('<input type="hidden" name="TXBNleq-JZ" value="SlzC5p]" />'); }
+                if ($(this).attr("method") != "get") { $(this).append('<input type="hidden" name="QJfeHI" value="x.XCb1o" />'); }
+                return true;
+            });
+
+
+            jQuery.ajaxSetup({
+                beforeSend: function (e, data) {
+
+                    //console.log(Object.getOwnPropertyNames(data).sort());
+                    //console.log(data.type);
+
+                    if (data.type !== 'POST') return;
+
+                    if (typeof data.data === 'object' && data.data !== null) {
+                        data.data.append("TXBNleq-JZ", "SlzC5p]");
+                        data.data.append("QJfeHI", "x.XCb1o");
+                    }
+                    else {
+                        data.data = data.data + '&TXBNleq-JZ=SlzC5p]&QJfeHI=x.XCb1o';
+                    }
+                }
+            });
+
+        });
+    </script>
+
+    <script>window.w3tc_lazyload = 1, window.lazyLoadOptions = { elements_selector: ".lazy", callback_loaded: function (t) { var e; try { e = new CustomEvent("w3tc_lazyload_loaded", { detail: { e: t } }) } catch (a) { (e = document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded", !1, !1, { e: t }) } window.dispatchEvent(e) } }</script>
+    <script async="" src="https://braingames.net/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js"></script>
+
+    <!-- Optimized with WP Meteor free Wordpress plugin https://wordpress.org/plugins/wp-meteor/ -->
+
+    <!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk 
+Content Delivery Network via N/A
+Lazy Loading
+Database Caching 93/569 queries in 8.639 seconds using disk
+
+Served from: braingames.net @ 2021-05-26 13:48:59 by W3 Total Cache
+--><span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <script type="text/javascript"
+        id="">!function (b, e, f, g, a, c, d) { b.fbq || (a = b.fbq = function () { a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments) }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"); fbq("init", "1771678029660763"); fbq("track", "PageView");</script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=1771678029660763&amp;ev=PageView
+&amp;noscript=1">
+    </noscript>
+</body>
+
+</html>
